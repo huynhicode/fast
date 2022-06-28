@@ -25,6 +25,10 @@
     ".": {
       "types": "./dist/dts/index.d.ts",
       "default": "./dist/esm/index.js"
+    },
+    "./design-token-2": {
+      "types": "./dist/dts/design-token-2/exports.d.ts",
+      "default": "./dist/esm/design-token-2/exports.js"
     }
   },
   "scripts": {
