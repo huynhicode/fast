@@ -7,7 +7,7 @@ import type { FASTTab } from "./tab.js";
  * The template for the {@link @microsoft/fast-foundation#FASTTab} component.
  * @public
  */
-export function tabTemplate(options: StartEndOptions): ElementViewTemplate<FASTTab> {
+export function tabTemplate(options: StartEndOptions = {}): ElementViewTemplate<FASTTab> {
     return html<FASTTab>`
         <template slot="tab" role="tab" aria-disabled="${x => x.disabled}">
             ${startSlotTemplate(options)}
